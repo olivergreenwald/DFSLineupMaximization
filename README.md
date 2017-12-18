@@ -54,7 +54,7 @@
 
     The program doesn’t always return the amount of players that you request it to. If you read through and run the Output         file, you will see that I made the variable `numPlayersToOutput` as 9. This variable should make the code return 9             players, but it only returns 6. The Total Salary that the code returns is close to $50,000, so I know that it successfully     gets as close as possible to the salary constraint. But something specific in the code needs to be added that makes it         return 9 players, even if it can get a higher projected point value without 9. 
     
-    *in a Fantasy Contest, you have to start 9 players no matter what.
+    *In a Fantasy Contest, you have to start 9 players no matter what.
 
 ## Unimplemented Features
 
