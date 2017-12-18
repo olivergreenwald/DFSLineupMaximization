@@ -1,6 +1,6 @@
 # DFS Lineup Maximization
 
-## Project Description
+1. ## Project Description
 
 ## Files
 
