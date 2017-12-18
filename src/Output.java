@@ -8,8 +8,8 @@ import java.io.IOException;
  * File Creator: Oliver Greenwald
  * File Name: Output
  * File Purpose:
- *      The Output file is responsible for reading in lists containing NFL players, taking that data and
- *      creating a Player Class instance for each NFL player, and then strategically sorting the players.
+ *      The Output file is responsible for reading in the Defenses and Offensive_Players files, taking that data, creating a
+ *      Player Class instance for each set of data, strategically sorting the Players, and then finally printing the results.
  * Date Created: 10/18/17
  * Collaborators: Michael Chiang
  */
