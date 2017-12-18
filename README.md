@@ -9,6 +9,8 @@
 
 ## Project Description
 
+    An algorithm that takes in a list of NFL players with data (i.e. position, name, salary, projected points, etc.), and         creates a lineup that is projected to produce the most projected fantasy points. The end result should be a 9 player           lineup, that produces the most possible projected fantasy points.
+
 ## Files
 
 1. #### Defenses
