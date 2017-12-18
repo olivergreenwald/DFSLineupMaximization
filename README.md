@@ -39,7 +39,14 @@
 
 1. #### IntelliJ IDEA CE
 
+    I used the [IntelliJ](https://www.google.com) application to write and run the java code.
+
 2. #### Gurobi
+
+   I used the [Gurobi](http://www.gurobi.com/) software to try and use their “Optimizer” to create the best lineup. The code      that I used can be found in the Solver file. I found that experimental code in [this](http://www.gurobi.com/documentation/)    part of the Gurobi website. 
+   
+   To install Gurobi, you can get a free academic license. Once you have received the license you will find a screen that will    help you install the license to your computer using Terminal. Then install Gurobi in your project as a Dependency and          import it at the top of your code just like this: import `gurobi.*;`
+
 
 ## Bugs
 
