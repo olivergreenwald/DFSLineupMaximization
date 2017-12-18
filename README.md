@@ -7,7 +7,7 @@
 
 ## Project Description
 
-An algorithm that takes in a list of NFL players with data (i.e. position, name, salary, projected points, etc.), and         creates a lineup that is projected to produce the most projected fantasy points. The end result should be a 9 player           lineup, that produces the most possible projected fantasy points.
+An algorithm that takes in a list of NFL players with data (i.e. position, name, salary, projected points, etc.), and         creates a lineup that is projected to produce the most fantasy points in a week. The end result should be a 9 player lineup, that produces the most possible projected fantasy points in a week.
 
 ## Files
 
@@ -31,7 +31,7 @@ An algorithm that takes in a list of NFL players with data (i.e. position, name,
 5. #### Solver.Java
 
     This file is EXPERIMENTAL and does not have any effect on the Output file (which runs the code for this project).
-    This file uses a Gurobi example found online, but modified to use the Player class in hopes to maximize the data.
+    This file uses a Gurobi example found online, but modified to use the Player class in hopes to maximize the data               efficiently.
 
 ## How to Run the Project
 
@@ -41,7 +41,7 @@ An algorithm that takes in a list of NFL players with data (i.e. position, name,
 
 2. #### Gurobi
 
-   I used the [Gurobi](http://www.gurobi.com/) software to try and use their “Optimizer” to create the best lineup. The code      that I used can be found in the Solver file. I found that experimental code in [this](http://www.gurobi.com/documentation/)    part of the Gurobi website. 
+   I used the [Gurobi](http://www.gurobi.com/) software to try and use their “Optimizer” to create the best lineup. This          Optimizer solves linear algebra problems and is very efficient. The code that I used can be found in the Solver file. I        found that experimental code in [this](http://www.gurobi.com/documentation/) part of the Gurobi website. 
    
    To install Gurobi, you can get a free academic license. Once you have received the license you will find a screen that will    help you install the license to your computer using Terminal. Then install Gurobi in your project as a Dependency and          import it at the top of your code just like this: `import gurobi.*;`
 
