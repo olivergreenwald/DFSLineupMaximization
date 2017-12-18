@@ -4,12 +4,10 @@
 
 1. NFL = National Football League
 2. DFS = Daily Fantasy Sports
-3. 
-4.
 
 ## Project Description
 
-    * An algorithm that takes in a list of NFL players with data (i.e. position, name, salary, projected points, etc.), and         creates a lineup that is projected to produce the most projected fantasy points. The end result should be a 9 player           lineup, that produces the most possible projected fantasy points.
+An algorithm that takes in a list of NFL players with data (i.e. position, name, salary, projected points, etc.), and         creates a lineup that is projected to produce the most projected fantasy points. The end result should be a 9 player           lineup, that produces the most possible projected fantasy points.
 
 ## Files
 
@@ -47,7 +45,6 @@
    
    To install Gurobi, you can get a free academic license. Once you have received the license you will find a screen that will    help you install the license to your computer using Terminal. Then install Gurobi in your project as a Dependency and          import it at the top of your code just like this: `import gurobi.*;`
 
-
 ## Bugs
 
 1. #### 9 Person Lineup
@@ -58,6 +55,17 @@
 
 ## Unimplemented Features
 
+The next recommended step is to add more constraints to the model. Right now, the only constraints are that there has to be 9 players, and their salaries can’t go above $50,000.
+
 1. #### Positions
 
+    One constraint that should be added is “positions”. The algorithm right now ignores NFL positions entirely and so, for         example, it could have you starting 9 quarterbacks, but a Fantasy Lineup only allows you to have one quarterback. 
+     
+    A lineup should include 1 quarterback, 2 running backs, 3 wide receivers, 1 tight end, 1 flex (running back, wide             receiver, or tight end), and one defense. 
+
 2. #### Defenses, Weather, etc.
+
+   You should consider adding other inputs/constraints to the model such as:
+         1. The defense of the player's opposing team
+         2. The weather during each game
+         3. And much much more!
