@@ -1,10 +1,10 @@
 # DFS Lineup Maximization
 
-1. ## Project Description
+## Project Description
 
 ## Files
 
-#### Defenses
+1. #### Defenses
 
 #### Offensive_Players
 
