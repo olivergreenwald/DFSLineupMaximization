@@ -77,6 +77,9 @@ public class Player {
     public void setProjectionDFN(double projectionDFN){
         this.projectionDFN = projectionDFN;
     }
+    //The setRatio() method is used to create a "ratio" for a player based on their salary and projected points.
+    //The best ratios are found from a player with a low salary and a high projected points
+    //The players will be cut in half (based ont these ratios) and the bottom half will be cut.
     public void setRatio(){this.ratio = this.getSalary()/this.getProjectionDFN();}
 
     //toString (Prints Player Data In A Nice Way To Read)

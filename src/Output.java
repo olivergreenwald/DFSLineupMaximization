@@ -24,7 +24,7 @@ public class Output {
      *      projected points) to create the best possible lineup of players.
      */
 
-    //A method that returns the maximum of two integers
+    //A method that returns the maximum of two integers (used to keep or discard players in the recursion process)
     static double max(double a, double b) { return (a > b)? a : b; }
 
     //Returns the maximum projected points so that can be put in a knapsack of capacity W
@@ -272,22 +272,26 @@ public class Output {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        //The code below is from a KnapSack example problem. This code sets up variables (like players used in my
-        //code above) and then maximizes the model to find the best solution like my code does as well.
+        //The commented out code below is from a KnapSack example problem. This code sets up variables
+        // (like players used in my code above) and then maximizes the model to find the best solution
+        // like my code does as well.
+
+        //The code is what I started with (not related to Fantasy Football), and is here in case whoever takes over
+        //this project would like to see the origin of the KnapSack problem created in this code.
 
 //      Integer projectedPoints[] = new Integer[]{new Integer(60), new Integer(100), new Integer(120)};
 //      Integer playerSalary[] = new Integer[]{new Integer(10), new Integer(20), new Integer(30)};
 //      ArrayList<ArrayList> soFar = new ArrayList<ArrayList>();
-//      int total_salary = 40;
+//      int totalSalary = 40;
 //      int n = projectedPoints.length;
-//      System.out.println(knapSack(total_salary, playerSalary, projectedPoints, n, soFar));
+//      System.out.println(knapSack(totalSalary, playerSalary, projectedPoints, n, soFar));
 //      System.out.println(soFar);
 
         //Initializes the constraints for the model, runs the knapSack method, and then prints the output (maximized model)
         ArrayList<ArrayList> soFar = new ArrayList<ArrayList>();
-        int total_salary = 50000;
+        int totalSalary = 50000;
         int numPlayersToOutput = 9;
-        knapSack(total_salary, playerSalary, playerName, projectedPoints, numPlayersToOutput, soFar);
+        knapSack(totalSalary, playerSalary, playerName, projectedPoints, numPlayersToOutput, soFar);
         System.out.println("____________________________________________________________________________________________");
         System.out.println();
         System.out.println("For Class Demo:");

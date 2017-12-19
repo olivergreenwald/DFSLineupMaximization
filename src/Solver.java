@@ -6,7 +6,7 @@ import gurobi.*;
  * File Name: Solver
  * File Purpose:
  *      This file is EXPERIMENTAL and does not have any effect on the Output class (which runs the code for this project).
- *      This file uses a Gurobi example found online, but modified to use the Player class in hopes to maximize the data.
+ *      This file uses a Gurobi example found online, but modified to use the Player class in hopes to maximize the data efficiently.
  * Date Created: 10/18/17
  * Collaborators: Michael Chiang
  */
